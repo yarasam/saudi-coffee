@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Journey from './Journey.jsx';
 import { ui } from './scenes';
-
+//LANG OPTION
 const readLang = () => {
   try {
     const saved = localStorage.getItem('saudi-coffee-lang');
@@ -11,6 +11,7 @@ const readLang = () => {
   }
   return 'ar';
 };
+
 
 function Cup() {
   return (

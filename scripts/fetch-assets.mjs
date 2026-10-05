@@ -1,10 +1,10 @@
+// THIS CODE IS FOR FEACHING THE ASSETS (IMAGES & VIDEOS)
 // Downloads the 8 scene images and the scene 7 -> 8 morph video that were generated
 // on Higgsfield into public/images and public/videos.
 //
 //   npm run fetch-assets                  download everything
 //   npm run fetch-assets -- --if-missing  skip files that are already there
 //
-// Better long term: commit the files to the repo so the site no longer depends on these links.
 import { access, mkdir, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
