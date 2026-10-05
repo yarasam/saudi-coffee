@@ -1,0 +1,21 @@
+{
+  "name": "saudi-coffee",
+  "version": "1.0.0",
+  "description": "A scroll-driven cinematic journey of Saudi coffee, from the mountain to the cup",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch-assets": "node scripts/fetch-assets.mjs"
+  },
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.2"
+  }
+}
